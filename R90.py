@@ -8,7 +8,7 @@ nextframe = [0 for x in range(402)]
 currentframe[201] = 1
 print currentframe
 
-for k in range(195):
+for k in range(120):
     for i in range(len(currentframe) - 1):
         if currentframe[i - 1] == 0 and currentframe[i] == 0 and currentframe[i + 1] == 0:
             # ---
